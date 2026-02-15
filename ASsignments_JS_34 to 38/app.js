@@ -155,3 +155,20 @@ var result = countVowels("Ummehani A.Qayoom" , "m");
 console.log(result);
 document.write("Ummehani A.Qayoom" + "<br>");
 document.write("Number of m in the string is " + result + "<br><br>");
+
+
+function calcCircumference(radius){
+    var circumference = 2 * Math.PI * radius;
+    console.log("The circumference is " + circumference);   
+}
+
+function calcArea (radius){
+    var area = Math.PI * radius *radius;
+    console.log("The area is " + area);
+}
+
+calcCircumference(4);
+calcArea(4);
+
+
+//-------End--------//
